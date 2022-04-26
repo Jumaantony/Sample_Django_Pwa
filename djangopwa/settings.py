@@ -68,7 +68,7 @@ PWA_APP_ICONS = [
 ]
 PWA_APP_ICONS_APPLE = [
     {
-        'src': 'static/images/juma.jpeg',
+        'src': 'static/images/wicked.png',
         'sizes': '160x160',
         "purpose": 'any',
     }
