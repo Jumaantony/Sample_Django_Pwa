@@ -1,0 +1,25 @@
+{% load static %}
+{% load pwa %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width", initial-scale=1, name="viewport" shrink-to-fit="yes">
+
+    <link rel="shortcut icon" href="{% static 'images/logo.jpg' %}">
+
+    <title>
+        {% block title %}
+            PWA
+        {% endblock %}
+    </title>
+
+    {% progressive_web_app_meta %}
+    
+</head>
+<body>
+
+    <h1> Hellow World.. This is my trial PWA </h1>
+
+</body>
+</html>
