@@ -62,13 +62,15 @@ PWA_APP_STATUS_BAR_COLOR = 'default'
 PWA_APP_ICONS = [
     {
         'src': 'static/images/juma.jpeg',
-        'sizes': '160x160'
+        'sizes': '160x160',
+        "purpose": 'any',
     }
 ]
 PWA_APP_ICONS_APPLE = [
     {
         'src': 'static/images/juma.jpeg',
-        'sizes': '160x160'
+        'sizes': '160x160',
+        "purpose": 'any',
     }
 ]
 PWA_APP_SPLASH_SCREEN = [
